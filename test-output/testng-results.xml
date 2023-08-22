@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-22T23:23:23 BDT" name="Default suite" finished-at="2023-08-22T23:23:45 BDT" duration-ms="22111">
+    <groups>
+    </groups>
+    <test started-at="2023-08-22T23:23:23 BDT" name="Default test" finished-at="2023-08-22T23:23:45 BDT" duration-ms="22111">
+      <class name="Selenium.TestNGannotation">
+        <test-method is-config="true" signature="setBaseURL()[pri:0, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:23 BDT" name="setBaseURL" finished-at="2023-08-22T23:23:32 BDT" duration-ms="9783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method signature="urlCheck()[pri:0, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:32 BDT" name="urlCheck" finished-at="2023-08-22T23:23:33 BDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlCheck -->
+        <test-method signature="titleCheck()[pri:1, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:33 BDT" name="titleCheck" finished-at="2023-08-22T23:23:33 BDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+        <test-method signature="loggingIn()[pri:2, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:33 BDT" name="loggingIn" finished-at="2023-08-22T23:23:39 BDT" duration-ms="6256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingIn -->
+        <test-method signature="addRemoveCart()[pri:3, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:39 BDT" name="addRemoveCart" finished-at="2023-08-22T23:23:40 BDT" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveCart -->
+        <test-method signature="openCart()[pri:4, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:40 BDT" name="openCart" finished-at="2023-08-22T23:23:41 BDT" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCart -->
+        <test-method signature="checkOut()[pri:5, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:41 BDT" name="checkOut" finished-at="2023-08-22T23:23:41 BDT" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+        <test-method signature="orderInfo()[pri:6, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:41 BDT" name="orderInfo" finished-at="2023-08-22T23:23:44 BDT" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderInfo -->
+        <test-method signature="finishToHome()[pri:7, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:44 BDT" name="finishToHome" finished-at="2023-08-22T23:23:45 BDT" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishToHome -->
+        <test-method is-config="true" signature="endSession()[pri:0, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-22T23:23:45 BDT" name="endSession" finished-at="2023-08-22T23:23:45 BDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- Selenium.TestNGannotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
