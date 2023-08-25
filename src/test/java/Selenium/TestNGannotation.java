@@ -73,7 +73,7 @@ public class TestNGannotation {
 	
 	@AfterTest
 	public void endSession() {
-		driver.close();
+		driver.quit();
 	}
 
 }

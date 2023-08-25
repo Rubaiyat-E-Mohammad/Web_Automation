@@ -1,93 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-26T04:40:14 BDT" name="Default suite" finished-at="2023-08-26T04:40:19 BDT" duration-ms="5830">
+  <suite started-at="2023-08-26T04:43:07 BDT" name="Default suite" finished-at="2023-08-26T04:43:11 BDT" duration-ms="3588">
     <groups>
     </groups>
-    <test started-at="2023-08-26T04:40:14 BDT" name="Default test" finished-at="2023-08-26T04:40:19 BDT" duration-ms="5830">
-      <class name="Selenium.netlifyAuto">
-        <test-method is-config="true" signature="setBaseURL()[pri:0, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:14 BDT" name="setBaseURL" finished-at="2023-08-26T04:40:16 BDT" duration-ms="1977" status="PASS">
+    <test started-at="2023-08-26T04:43:07 BDT" name="Default test" finished-at="2023-08-26T04:43:11 BDT" duration-ms="3588">
+      <class name="Selenium.TestNGannotation">
+        <test-method is-config="true" signature="setBaseURL()[pri:0, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:07 BDT" name="setBaseURL" finished-at="2023-08-26T04:43:10 BDT" duration-ms="2794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseURL -->
-        <test-method signature="urlCheck()[pri:1, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:16 BDT" name="urlCheck" finished-at="2023-08-26T04:40:16 BDT" duration-ms="8" status="PASS">
+        <test-method signature="urlCheck()[pri:1, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:10 BDT" name="urlCheck" finished-at="2023-08-26T04:43:10 BDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlCheck -->
-        <test-method signature="titleCheck()[pri:2, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:16 BDT" name="titleCheck" finished-at="2023-08-26T04:40:16 BDT" duration-ms="5" status="PASS">
+        <test-method signature="titleCheck()[pri:2, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:10 BDT" name="titleCheck" finished-at="2023-08-26T04:43:10 BDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleCheck -->
-        <test-method signature="alertButton()[pri:3, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:16 BDT" name="alertButton" finished-at="2023-08-26T04:40:16 BDT" duration-ms="48" status="PASS">
+        <test-method signature="loggingIn()[pri:3, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:10 BDT" name="loggingIn" finished-at="2023-08-26T04:43:10 BDT" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alertButton -->
-        <test-method signature="doubleClickMe()[pri:4, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:16 BDT" name="doubleClickMe" finished-at="2023-08-26T04:40:16 BDT" duration-ms="137" status="PASS">
+        </test-method> <!-- loggingIn -->
+        <test-method signature="addRemoveCart()[pri:4, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:10 BDT" name="addRemoveCart" finished-at="2023-08-26T04:43:10 BDT" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleClickMe -->
-        <test-method signature="dragAndDrop()[pri:5, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:16 BDT" name="dragAndDrop" finished-at="2023-08-26T04:40:16 BDT" duration-ms="37" status="PASS">
+        </test-method> <!-- addRemoveCart -->
+        <test-method signature="openCart()[pri:5, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:10 BDT" name="openCart" finished-at="2023-08-26T04:43:10 BDT" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dragAndDrop -->
-        <test-method signature="loggingin()[pri:6, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:16 BDT" name="loggingin" finished-at="2023-08-26T04:40:16 BDT" duration-ms="195" status="PASS">
+        </test-method> <!-- openCart -->
+        <test-method signature="checkOut()[pri:6, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:10 BDT" name="checkOut" finished-at="2023-08-26T04:43:10 BDT" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loggingin -->
-        <test-method signature="backToHome()[pri:7, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:16 BDT" name="backToHome" finished-at="2023-08-26T04:40:16 BDT" duration-ms="166" status="PASS">
+        </test-method> <!-- checkOut -->
+        <test-method signature="orderInfo()[pri:7, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:10 BDT" name="orderInfo" finished-at="2023-08-26T04:43:11 BDT" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHome -->
-        <test-method signature="contactAndHome()[pri:8, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:16 BDT" name="contactAndHome" finished-at="2023-08-26T04:40:18 BDT" duration-ms="2272" status="PASS">
+        </test-method> <!-- orderInfo -->
+        <test-method signature="finishToHome()[pri:8, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:11 BDT" name="finishToHome" finished-at="2023-08-26T04:43:11 BDT" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contactAndHome -->
-        <test-method signature="name()[pri:9, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:18 BDT" name="name" finished-at="2023-08-26T04:40:18 BDT" duration-ms="56" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="radioButton()[pri:10, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:18 BDT" name="radioButton" finished-at="2023-08-26T04:40:18 BDT" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- radioButton -->
-        <test-method signature="dropDown()[pri:11, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="dropDown" finished-at="2023-08-26T04:40:19 BDT" duration-ms="82" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropDown -->
-        <test-method signature="datalist()[pri:12, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="datalist" finished-at="2023-08-26T04:40:19 BDT" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- datalist -->
-        <test-method signature="colorPicker()[pri:13, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="colorPicker" finished-at="2023-08-26T04:40:19 BDT" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- colorPicker -->
-        <test-method signature="selectDate()[pri:14, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="selectDate" finished-at="2023-08-26T04:40:19 BDT" duration-ms="70" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectDate -->
-        <test-method signature="range()[pri:15, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="range" finished-at="2023-08-26T04:40:19 BDT" duration-ms="364" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- range -->
-        <test-method signature="uploadFile()[pri:16, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="uploadFile" finished-at="2023-08-26T04:40:19 BDT" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uploadFile -->
-        <test-method signature="selectNumber()[pri:17, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="selectNumber" finished-at="2023-08-26T04:40:19 BDT" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectNumber -->
-        <test-method signature="textArea()[pri:18, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="textArea" finished-at="2023-08-26T04:40:19 BDT" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textArea -->
-        <test-method is-config="true" signature="endSession()[pri:0, instance:Selenium.netlifyAuto@323b36e0]" started-at="2023-08-26T04:40:19 BDT" name="endSession" finished-at="2023-08-26T04:40:19 BDT" duration-ms="145" status="PASS">
+        </test-method> <!-- finishToHome -->
+        <test-method is-config="true" signature="endSession()[pri:0, instance:Selenium.TestNGannotation@3ce1e309]" started-at="2023-08-26T04:43:11 BDT" name="endSession" finished-at="2023-08-26T04:43:11 BDT" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSession -->
-      </class> <!-- Selenium.netlifyAuto -->
+      </class> <!-- Selenium.TestNGannotation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
