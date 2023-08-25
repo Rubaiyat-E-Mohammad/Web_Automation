@@ -1,9 +1,6 @@
 package Selenium;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
-import java.util.List;
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.*;
@@ -101,13 +98,52 @@ public class netlifyAuto {
 		//dropDown.selectByValue("option 1");
 		//dropDown.selectByVisibleText("Option 3");
 		driver.findElement(By.cssSelector("input[name=option3]")).click();
-		driver.findElement(By.cssSelector("input[list=datalists]")).sendKeys("Mint");
+		
 	}
 	
+	@Test(priority=12)
+	public void datalist() {
+		driver.findElement(By.cssSelector("input[list=datalists]")).sendKeys("Chocolate");
+	}
 	
-	//@AfterTest
+	@Test(priority=13)
+	public void colorPicker() {
+		driver.findElement(By.cssSelector("input[type=color]")).sendKeys("#FFFFFF");
+	}
+	
+	@Test(priority=14)
+	public void selectDate() {
+		WebElement date= driver.findElement(By.cssSelector("input[type=date]"));
+		date.clear();
+		date.sendKeys("09/04/1998");
+	}
+	
+	@Test(priority=15)
+	public void range() {
+		WebElement a = driver.findElement(By.cssSelector("input[type=range]"));
+		Actions action = new Actions(driver);
+	    action.clickAndHold(a).moveByOffset(20, 0).perform();
+	}
+	
+	@Test(priority=16)
+	public void uploadFile() {
+		driver.findElement(By.id("myfile")).sendKeys("/Users/rubaiyatemohammad/Downloads/5.jpg");;
+	}
+	
+	@Test(priority=17)
+	public void selectNumber() {
+		driver.findElement(By.id("quantity")).sendKeys("9");;
+	}
+	
+	@Test(priority=18)
+	public void textArea() {
+		driver.findElement(By.xpath("/html/body/div[3]/div[2]/form/fieldset/textarea")).sendKeys("The fish is playing in the sky");
+		driver.findElement(By.xpath("/html/body/div[3]/div[2]/form/fieldset/button")).click();
+	}
+	
+	@AfterTest
 	public void endSession() {
-		driver.close();
+		driver.quit();
 	}
 
 }

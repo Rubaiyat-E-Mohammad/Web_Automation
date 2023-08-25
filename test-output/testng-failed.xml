@@ -6,7 +6,7 @@
       <class name="Selenium.netlifyAuto">
         <methods>
           <include name="setBaseURL"/>
-          <include name="dataLists"/>
+          <include name="datalist"/>
         </methods>
       </class> <!-- Selenium.netlifyAuto -->
     </classes>
